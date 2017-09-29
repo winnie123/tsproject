@@ -1,0 +1,19 @@
+{
+  "name": "tsproject",
+  "version": "1.0.0",
+  "description": "宝贝王B端核销-ts写法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winnie123/tsproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winnie123/tsproject/issues"
+  },
+  "homepage": "https://github.com/winnie123/tsproject#readme"
+}
