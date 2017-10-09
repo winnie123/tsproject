@@ -1,3 +1,10 @@
+/*
+ * @Author: winnie 
+ * @Date: 2017-10-09 14:17:29 
+ * @Last Modified by:   winnie 
+ * @Last Modified time: 2017-10-09 14:17:29 
+ */
+
 let kqDomain: string = 'https://ebd.99bill.com';
 let vasDomain: string = 'https://rip.99bill.com';
 
@@ -13,7 +20,6 @@ let initDomain = (): void => {
 }
 
 initDomain();
-
 
 const SERVER_URL = {
     OPERS: kqDomain + '/coc-bill-api/bus/3.0/opers',// C0090001N 根据企业帐号查询操作员列表
@@ -40,7 +46,7 @@ const PAGE_URL = {
     RESULT_Page: '/result'
 };
 
-export default {
+export {
     SERVER_URL,
     STORE_KEY,
     BUSINESS_CODE,
